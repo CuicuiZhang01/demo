@@ -1,3 +1,3 @@
 import torch
 
-print(torch.cuda.is_available())
+print('Hello '+str(torch.cuda.is_available()))
